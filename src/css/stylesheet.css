@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 499px;
-    width: 320px;
+    max-height: 499px;
+    max-width: 320px;
     background-color: white;
     padding: 16px 16px 40px 16px;
     border-radius: 20px;
@@ -21,12 +21,12 @@ body {
     font-family: 'Outfit';
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    margin: 24px 0;
+    margin: 24px 0px 16px 0;
     font-size: 20px;
     text-align: center;
 }
 
-.card-content {
+.card-text {
     font-family: 'Outfit';
     font-weight: 400;
     color: hsl(216, 15%, 48%);
@@ -36,5 +36,7 @@ body {
 
 .qr-code {
     height: 288px;
-    width: 288px;    
+    width: 288px;
+    border-radius: 10px;
+
 }
