@@ -17,6 +17,10 @@ body {
     border-radius: 20px;
 }
 
+.card-content {
+    margin: 0px 16px;
+}
+
 .card-title {
     font-family: 'Outfit';
     font-weight: 700;
@@ -38,5 +42,4 @@ body {
     height: 288px;
     width: 288px;
     border-radius: 10px;
-
 }
