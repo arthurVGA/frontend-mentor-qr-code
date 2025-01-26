@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit-Bold.ttf);
+    width: 700;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit-Regular.ttf);
+    width: 400;
+}
